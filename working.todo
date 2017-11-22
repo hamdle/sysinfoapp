@@ -1,0 +1,15 @@
+Configuration:
+    ☐ Add launch.json code by clicking debug tab and the config icon next to launch
+        "configurations": [
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceFolder}\\main.js",
+                "args": [],
+                "cwd": "${workspaceRoot}",
+                "runtimeExecutable": "${workspaceRoot}/node_modules/electron/dist/electron.exe",
+                "runtimeArgs": [],
+                "env": { },
+            }
+        ]
